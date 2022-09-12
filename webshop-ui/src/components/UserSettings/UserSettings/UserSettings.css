@@ -1,0 +1,13 @@
+.settings-section-wrapper {
+    width: 300px;
+}
+
+.settings-section-body {
+    overflow: hidden;
+    height: 0;
+    transition: all 0.5s;
+}
+
+.open-section {
+    height: 200px;
+}

@@ -1,0 +1,30 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import { Provider } from 'react-redux';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { store } from './store/index';
+import ModalWrapper from './components/ModalWrapper/ModalWrapper';
+import LoaderWrapper from './components/LoaderWrapper/LoaderWrapper';
+import Authentication from './components/Authentication/Authentication';
+
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement,
+);
+root.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <Authentication>
+        <App />
+      </Authentication>
+      <ModalWrapper />
+      <LoaderWrapper />
+    </Provider>
+  </React.StrictMode>,
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

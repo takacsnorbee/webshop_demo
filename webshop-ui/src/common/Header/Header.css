@@ -1,0 +1,41 @@
+header {
+    display: flex;
+}
+
+.header-logo-wrapper {
+    height: 100%;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-logo-wrapper img {
+    height: 100%;
+}
+
+.header-menu-wrapper {
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: capitalize;
+}
+
+.header-user-wrapper {
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+.header-user-wrapper img {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+}

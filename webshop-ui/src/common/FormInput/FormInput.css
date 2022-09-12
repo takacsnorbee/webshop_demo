@@ -1,0 +1,39 @@
+.input-wrapper {
+    position: relative;
+    height: 4rem;
+}
+
+.input-wrapper span, .input-wrapper input {
+    position: absolute;
+    bottom: 0;
+    font-size: 1.5rem;
+}
+
+.input-wrapper span {
+    color: white;
+    transition: 0.5s;
+    padding-bottom: 3px;
+}
+
+.input-wrapper input {
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    width: 100%;
+}
+
+.input-wrapper input:valid ~ span,
+.input-wrapper input:active ~ span,
+.input-wrapper input:focus ~ span,
+.input-wrapper input:not(:placeholder-shown) ~ span {
+    font-size: 1rem;
+    transform: translateY(-1.9rem);
+    transition: 0.5s;
+}
+
+.error {
+    border-color: red!important;
+}

@@ -1,0 +1,6 @@
+.destination-tile-wrapper {
+    height: 100px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 20px;
+}

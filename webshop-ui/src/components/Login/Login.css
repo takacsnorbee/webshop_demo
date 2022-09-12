@@ -1,0 +1,47 @@
+.login-wrapper {
+    perspective: 1000px;
+}
+
+.login-flip-wrapper {
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.login-form, .forgot-form, .login-info, .forgot-info {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.forgot-form, .rotate-form, .forgot-info {
+    transform: rotateY(180deg)
+}
+
+.push-back-fields {
+    z-index: -10;
+}
+
+.keep-logged-in-label {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    width: fit-content;
+}
+
+.keep-logged-in-label input[type=checkbox] {
+    margin-left: 1rem;
+}
+
+.rotate-button {
+    border: none;
+    background: none;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+

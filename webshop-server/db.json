@@ -1,0 +1,406 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "user",
+      "password": "User0000!",
+      "email": "user@user.com",
+      "isAdmin": false,
+      "avatarId": 1
+    },
+    {
+      "id": 1,
+      "name": "user1",
+      "password": "User1111!",
+      "email": "user1@user.com",
+      "isAdmin": false,
+      "avatarId": 2
+    },
+    {
+      "id": 2,
+      "name": "user2",
+      "password": "User2222!",
+      "email": "user2@user.com",
+      "isAdmin": false,
+      "avatarId": 3
+    },
+    {
+      "id": 3,
+      "name": "user3",
+      "password": "User3333!",
+      "email": "user3@user.com",
+      "isAdmin": false,
+      "avatarId": 4
+    },
+    {
+      "id": 4,
+      "name": "admin",
+      "password": "Admin3333!",
+      "email": "admin@admin.com",
+      "isAdmin": true,
+      "avatarId": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "beach"
+    },
+    {
+      "id": 1,
+      "name": "hills"
+    },
+    {
+      "id": 2,
+      "name": "urban"
+    },
+    {
+      "id": 3,
+      "name": "adventure"
+    }
+  ],
+  "agencies": [
+    {
+      "id": 0,
+      "name": "Company1",
+      "email": "company1@company.com",
+      "phone": "+45 - 6545610651",
+      "logoId": 4
+    },
+    {
+      "id": 1,
+      "name": "Company2",
+      "email": "company2@company.com",
+      "phone": "+45 - 6545610651",
+      "logoId": 4
+    },
+    {
+      "id": 2,
+      "name": "Company3",
+      "email": "company3@company.com",
+      "phone": "+45 - 6545610651",
+      "logoId": 4
+    },
+    {
+      "id": 3,
+      "name": "Company4",
+      "email": "company4@company.com",
+      "phone": "+45 - 6545610651",
+      "logoId": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "name": "Travel1",
+      "categoryIds": [
+        0,
+        1
+      ],
+      "headerPicId": 0,
+      "pictureIds": [
+        0,
+        4
+      ],
+      "description": "Lorem Ipsum",
+      "country": "USA",
+      "city": "New York",
+      "price": 125,
+      "cityGps": "40.730610 -73.935242",
+      "agencyId": 0,
+      "minPerson": 2,
+      "maxPerson": 4,
+      "start": "2022-05-21",
+      "end": "2022-05-27",
+      "quantity": 3,
+      "isActive": 1
+    },
+    {
+      "id": 1,
+      "name": "Travel2",
+      "categoryIds": [
+        1,
+        2
+      ],
+      "headerPicId": 0,
+      "pictureIds": [
+        3,
+        4
+      ],
+      "description": "Lorem Ipsum",
+      "country": "USA",
+      "city": "New York",
+      "price": 160,
+      "cityGps": "40.730610 -73.935242",
+      "agencyId": 1,
+      "minPerson": 2,
+      "maxPerson": 2,
+      "start": "2022-05-21",
+      "end": "2022-05-27",
+      "quantity": 6,
+      "isActive": 1
+    },
+    {
+      "id": 2,
+      "name": "Travel3",
+      "categoryIds": [
+        0,
+        3
+      ],
+      "headerPicId": 0,
+      "pictureIds": [
+        1,
+        2
+      ],
+      "description": "Lorem Ipsum",
+      "country": "USA",
+      "city": "New York",
+      "price": 100,
+      "cityGps": "40.730610 -73.935242",
+      "agencyId": 2,
+      "minPerson": 2,
+      "maxPerson": 6,
+      "start": "2022-05-21",
+      "end": "2022-05-27",
+      "quantity": 6,
+      "isActive": 1
+    },
+    {
+      "id": 3,
+      "name": "Travel4",
+      "categoryIds": [
+        0,
+        3
+      ],
+      "headerPicId": 0,
+      "pictureIds": [
+        1,
+        2
+      ],
+      "description": "Lorem Ipsum",
+      "country": "USA",
+      "city": "Boston",
+      "price": 200,
+      "cityGps": "42.361145 -71.057083",
+      "agencyId": 3,
+      "minPerson": 2,
+      "maxPerson": 6,
+      "start": "2022-05-21",
+      "end": "2022-05-27",
+      "quantity": 6,
+      "isActive": 1
+    },
+    {
+      "id": 4,
+      "name": "Travel5",
+      "categoryIds": [
+        0,
+        3
+      ],
+      "headerPicId": 0,
+      "pictureIds": [
+        1,
+        2
+      ],
+      "description": "Lorem Ipsum",
+      "country": "USA",
+      "city": "Miami",
+      "price": 130,
+      "cityGps": "25.761681 -80.191788",
+      "agencyId": 0,
+      "minPerson": 2,
+      "maxPerson": 6,
+      "start": "2022-05-21",
+      "end": "2022-05-27",
+      "quantity": 6,
+      "isActive": 1
+    },
+    {
+      "id": 5,
+      "name": "Travel6",
+      "categoryIds": [
+        3
+      ],
+      "headerPicId": 0,
+      "pictureIds": [
+        1,
+        2
+      ],
+      "description": "Lorem Ipsum",
+      "country": "USA",
+      "city": "Los Angeles",
+      "price": 440,
+      "cityGps": "34.052235 -118.243683",
+      "agencyId": 2,
+      "minPerson": 2,
+      "maxPerson": 6,
+      "start": "2022-05-21",
+      "end": "2022-05-27",
+      "quantity": 6,
+      "isActive": 1
+    },
+    {
+      "id": 6,
+      "name": "Travel7",
+      "categoryIds": [
+        3
+      ],
+      "headerPicId": 0,
+      "pictureIds": [
+        1,
+        2
+      ],
+      "description": "Lorem Ipsum",
+      "country": "Hungary",
+      "city": "Budapest",
+      "price": 40,
+      "cityGps": "47.497913 19.040236",
+      "agencyId": 1,
+      "minPerson": 4,
+      "maxPerson": 8,
+      "start": "2022-05-21",
+      "end": "2022-05-27",
+      "quantity": 0,
+      "isActive": 1
+    }
+  ],
+  "pictures": [
+    {
+      "id": 0,
+      "alt": "filename.jpg",
+      "source": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAKbA+gDAREAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAACAQFBgcJAwoCAQAL/8QARxAAAgMBAAEDAwIFAgUCAgITAwQBAgUGBxESEwgUIQAVCRYiMUEjURckMmFxJYE"
+    },
+    {
+      "id": 1,
+      "alt": "filename.jpg",
+      "source": "TestSource2"
+    },
+    {
+      "id": 2,
+      "alt": "filename.jpg",
+      "source": "TestSource3"
+    },
+    {
+      "id": 3,
+      "alt": "filename.jpg",
+      "source": "TestSource4"
+    },
+    {
+      "id": 4,
+      "alt": "filename.jpg",
+      "source": "TestSource5"
+    }
+  ],
+  "logos": [
+    {
+      "id": 4,
+      "alt": "filename.jpg",
+      "source": "TestLogo"
+    }
+  ],
+  "tokens": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNDY5NDYyLCJleHAiOjE2NjI0NzMwNjJ9.21vXwkDozUrvHpvVfvifbuK946MLU3KivJmRQR6cOew"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNDczMTY2LCJleHAiOjE2NjI0NzY3NjZ9.Y_9IkFg7SsvJV1-pPyOLc0QWVlDw-CnVWNIiMTrPZuM"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNDczODQyLCJleHAiOjE2NjI0Nzc0NDJ9.RV5VNYW1_S2ojZ8itvIlHuL3V6Idm5kbgluiwHIp8Ac"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNDgzMjI5LCJleHAiOjE2NjI0ODY4Mjl9.HP1PF6klf5WCIEywRDu2w88ONkVN8h2-uu-Tk7WMN4U"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNDgzODY5LCJleHAiOjE2NjI0ODc0Njl9.lKY-rQa5IQWlgZrmI8PuSl5e_7OFbDzrjkPVZ0x8FXQ"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNDgzODg2LCJleHAiOjE2NjI0ODc0ODZ9.tLe8QfrIRqCntSIKiljdjeVKbQ2E2Jqvd_D-kipr2is"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNDgzODk2LCJleHAiOjE2NjI0ODc0OTZ9.RH0v7JEoSRYwQE4CuXNYaF_0tXr7Zkq20VQ6PKNg-a0"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNDgzOTkzLCJleHAiOjE2NjI0ODc1OTN9.isfkNUPCwG3LrZLVwMB3TwnQ8TjeEzwN5uvfARFRmy8"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIxQHVzZXIuY29tIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTY2MjQ4NDAyOSwiZXhwIjoxNjYyNDg3NjI5fQ.Pn7JznlPSWDybcwhO_KJ1kO3PYI8aDllgy1WEOsltaQ"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNDg0MDUyLCJleHAiOjE2NjI0ODc2NTJ9.ZQKW_dgIAnMul04qcWbygqA9riRRPZnjDhmC1YOOzZE"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNTM5MjQ1LCJleHAiOjE2NjI1NDI4NDV9.JDV5O9PaC_LAi9yEC-v8Fhv5srPjAU_HEwurT-XF2sE"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNTQwMDUyLCJleHAiOjE2NjI1NDM2NTJ9.j7vnqohzT4tSGY-14ZKq3ltbw8Ri4xvPq8YoihIxMTg"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNTQwMDU5LCJleHAiOjE2NjI1NDM2NTl9.UvEjRQBE3i3IV87y9I0MH8gsBPss02VWg6nvNKCbVRM"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNTQ2MjE1LCJleHAiOjE2NjI1NDk4MTV9.-i0zN7zt3Nn_MagBfX4SKsoIq01g0ujyjFoUvEzP0IU"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNjIwMjU1LCJleHAiOjE2NjI2MjM4NTV9.F1-JKX9WvdPB3nQnUaDWBHMGti2OnZoLY9apajhQZ30"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNjIwNTkwLCJleHAiOjE2NjI2MjQxOTB9.edys0lLb5buNeVgnaGPCgHdFwmlkCok_mfcnCeQw6yU"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyNjIzNDgxLCJleHAiOjE2NjI2MjcwODF9.wex5l0yUL2lNR8KttUr7a_23BIC4o3OOqWuN12R5-xk"
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdXNlci5jb20iLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNjYyOTgxMzU0LCJleHAiOjE2NjI5ODQ5NTR9.hMX93mZATyKS4Jt6LEfUSpOMH_E7NaEuzhkWnKx_Hgw"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userEmail": "user@user.com",
+      "products": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "userEmail": "user@user.com",
+      "products": [
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "userEmail": "user@user.com",
+      "products": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "userEmail": "user@user.com",
+      "products": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "userEmail": "user@user.com",
+      "products": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 6,
+      "userEmail": "user@user.com",
+      "products": [
+        1,
+        2
+      ]
+    }
+  ]
+}

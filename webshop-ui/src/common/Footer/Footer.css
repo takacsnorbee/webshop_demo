@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #f0f0f0,black, #f0f0f0);
+}
+
+.footer-info-wrapper, .footer-copy-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info-wrapper {
+    justify-content: space-around;
+}

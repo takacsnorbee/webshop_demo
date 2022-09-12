@@ -1,5 +1,1 @@
-/build
-/node_modules
-/lib
-/deploy
-**/coverage
+node_modules

@@ -1,0 +1,19 @@
+.destination-wrapper {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+
+.destination-aside-wrapper {
+  width: 200px;
+  transition: width 1s;
+}
+
+.destination-list-wrapper {
+  display: inline-block;
+}
+
+.no-aside {
+  width: 0px;
+}
+
+
